@@ -250,7 +250,7 @@ The system behaves as designed: **degrading dispersal state monotonically raises
 ### 1 · Install the Python side
 
 ```bash
-git clone https://github.com/<your-username>/probe-vibration-dispersal.git
+git clone https://github.com/ttiimm940810/probe-vibration-dispersal.git
 cd probe-vibration-dispersal
 python -m venv .venv
 
@@ -387,6 +387,6 @@ Code and documentation are released under the [MIT Licence](LICENSE). If you use
   note   = {Undergraduate research project, National Chung Hsing University,
             Department of Bio-Industrial Mechatronics Engineering.
             NCHU Undergraduate Research Grant no. 11528551H},
-  howpublished = {\url{https://github.com/<your-username>/probe-vibration-dispersal}}
+  howpublished = {\url{https://github.com/ttiimm940810/probe-vibration-dispersal}}
 }
 ```
