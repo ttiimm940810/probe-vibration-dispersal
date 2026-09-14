@@ -13,7 +13,7 @@ YOLOv11 instance segmentation measures how well 38–89 µm semiconductor probe 
   Software-in-the-loop: the input is a cross-fade between two real photographs, not a physical plate.</em>
 </p>
 
-> **Status — read this first.** This is a **software-in-the-loop (SITL)** system. The plant is a virtual actuator circuit in Simulink; **no physical vibratory feeder has been driven yet.** Every number below comes from simulation and from evaluation on a held-out image set. Hardware integration is the next step, not a completed one.
+> **Status — read this first.** This is a **software-in-the-loop (SITL)** system. The plant is a Simscape mass–spring–damper model in Simulink; **no physical vibratory feeder has been driven yet.** Every number below comes from simulation and from evaluation on a held-out image set. Hardware integration is the next step, not a completed one.
 
 **Author:** Ting Lung (龍霆) — sole author. Department of Bio-Industrial Mechatronics Engineering, National Chung Hsing University (NCHU), Taiwan.
 **Advisor:** Prof. Chih-Hsuan Tai (戴芝軒).
@@ -340,7 +340,7 @@ This was an individual project with no team members. Written by me:
 
 - The entire vision node — feature design (the 4×4 grid uniformity statistic and the decaying-maximum single ratio), the zero-count entanglement guard, the packing/unpacking and non-blocking socket handling.
 - The Mamdani FIS: choice of membership function shapes and breakpoints, and all 9 rules.
-- The Simulink model: UDP blocks, fuzzy-to-PID cascade, virtual actuator circuit, scope instrumentation.
+- The Simulink model: UDP blocks, fuzzy-to-PID cascade, Simscape mass–spring–damper plant, scope instrumentation.
 - Dataset collection and annotation (46 images, photographed and labelled by me).
 - Training, evaluation, and the SITL verification protocol.
 
