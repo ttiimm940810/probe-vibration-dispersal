@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---- Ultralytics / training artefacts ----
+# (pre-trained checkpoints are re-downloaded automatically)
+runs/
+wandb/
+*.pt.bak
+yolo11n-seg.pt
+yolo11n.pt
+
+# ---- MATLAB / Simulink ----
+# build cache, cache file, autosaves, backups, codegen
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.slx.r*
+*.slx.bak
+codegen/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---- Large or transient media ----
+# assets/demo.gif IS tracked. Raw captures and clips are not.
+assets/raw/
+assets/*.mp4
+assets/*.mkv
+assets/*.avi
+*.tmp

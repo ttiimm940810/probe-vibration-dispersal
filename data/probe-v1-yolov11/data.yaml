@@ -1,0 +1,18 @@
+# YOLOv11 instance-segmentation dataset config.
+# `path` is resolved relative to this file, so training works from a clone
+# without touching the Ultralytics global datasets directory.
+path: .
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['probe']
+
+# Original export metadata (Roboflow, YOLOv11 segmentation format)
+roboflow:
+  workspace: s-workspace-nhphv
+  project: probe-5eejh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-nhphv/probe-5eejh/dataset/1
