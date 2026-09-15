@@ -16,7 +16,7 @@ YOLOv11 instance segmentation measures how well 38–89 µm semiconductor probe 
 > **Status — read this first.** This is a **software-in-the-loop (SITL)** system. The plant is a Simscape mass–spring–damper model in Simulink; **no physical vibratory feeder has been driven yet.** Every number below comes from simulation and from evaluation on a held-out image set. Hardware integration is the next step, not a completed one.
 
 **Author:** Ting Lung (龍霆) — sole author. Department of Bio-Industrial Mechatronics Engineering, National Chung Hsing University (NCHU), Taiwan.
-**Advisor:** Prof. Chih-Hsuan Tai (戴芝軒).
+**Advisor:** Prof. Zhi-Xuan Dai (戴芝軒).
 **Funding:** NCHU Office of Research and Development, Undergraduate Research Grant, project no. **11528551H** (awarded after competitive internal review).
 
 ---
